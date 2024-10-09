@@ -1,78 +1,105 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schedule</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        p {
-            text-align: center;
-        }
-        table {
-            margin: 20px auto;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 10px;
-        }
-        .download {
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schedule</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 10px;
+    }
+
+    .download {
+      text-align: center;
+    }
+
+    .section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      line-height: 2;
+      a {
+        display: block;
+      }
+      h4 {
+        margin: 20px 0 10px 0;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <!-- Schedule Table -->
-    <table border="1" cellpadding="10">
-        <thead>
-            <tr>
-                <th>日付</th>
-                <th>時限</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>9/26 (木)</td>
-                <td>3,4時限目</td>
-            </tr>
-            <tr>
-                <td>10/10 (木)</td>
-                <td>3,4時限目</td>
-            </tr>
-            <tr>
-                <td>10/24 (木)</td>
-                <td>3,4時限目</td>
-            </tr>
-            <tr>
-                <td>11/7 (木)</td>
-                <td>3,4時限目</td>
-            </tr>
-            <tr>
-                <td>11/21 (木)</td>
-                <td>3,4時限目</td>
-            </tr>
-            <tr>
-                <td>12/5 (木)</td>
-                <td>3,4時限目</td>
-            </tr>
-            <tr>
-                <td>12/19 (木)</td>
-                <td>3,4時限目</td>
-            </tr>
-            <tr>
-                <td>1/9 (木)</td>
-                <td>3,4時限目</td>
-            </tr>
-        </tbody>
-    </table>
-    <!-- Miro Link -->
-    <p><a href="https://miro.com/app/board/uXjVMhtTLOQ=">Miro</a></p>
+  <!-- Schedule Table -->
+  <table border="1" cellpadding="10">
+    <thead>
+      <tr>
+        <th>日付</th>
+        <th>時限</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>9/26 (木)</td>
+        <td>3,4時限目</td>
+      </tr>
+      <tr>
+        <td>10/10 (木)</td>
+        <td>3,4時限目</td>
+      </tr>
+      <tr>
+        <td>10/24 (木)</td>
+        <td>3,4時限目</td>
+      </tr>
+      <tr>
+        <td>11/7 (木)</td>
+        <td>3,4時限目</td>
+      </tr>
+      <tr>
+        <td>11/21 (木)</td>
+        <td>3,4時限目</td>
+      </tr>
+      <tr>
+        <td>12/5 (木)</td>
+        <td>3,4時限目</td>
+      </tr>
+      <tr>
+        <td>12/19 (木)</td>
+        <td>3,4時限目</td>
+      </tr>
+      <tr>
+        <td>1/9 (木)</td>
+        <td>3,4時限目</td>
+      </tr>
+    </tbody>
+  </table>
+  <section class="section">
+    <h4>10/10 (木)</h4>
+    <a href="recording_and_processing.pdf">録音と加工 (PDF)</a>
+    <a href="https://opu-ux.web.app/">写真ギャラリーアプリ</a>
+    <!--a class="download" href="samples.zip" download>samples.zip</a-->
+  </section>
+  <section class="section">
+    <h4>9/26 (木)</h4>
+    <a href="https://miro.com/app/board/uXjVMhtTLOQ=">Miro</a>
     <a class="download" href="bell.wav" download>bell.wav</a>
-    <a class="download" href="https://drive.google.com/file/d/11-IuhTkWFNsIfF80CV6Um0UlIs2sFD85/view?usp=sharing" download>bell.wav</a>
-    <p><a class="download" href="https://drive.google.com/file/d/1sd5ZwZdD0WtS1XhTzJoISrMl0uNDoNXf/view?usp=sharing" download>noise.zip</a></p>
+  </section>
 </body>
+
 </html>
